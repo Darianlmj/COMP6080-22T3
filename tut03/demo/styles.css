@@ -28,7 +28,6 @@ input {
   background: #001d4714;
   border-radius: 0.4em;
   border: 0;
-  transition: background 0.1s ease-out;
 }
 
 input:focus {

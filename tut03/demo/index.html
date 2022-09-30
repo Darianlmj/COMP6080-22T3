@@ -2,7 +2,7 @@
 
 <html>
   <head>
-    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./styles.css" /> 
   </head>
   <body>
     <form class="page-form">
@@ -14,9 +14,13 @@
     <button id="logout-button">Logout</button>
 
     <form class="page-form" id="to-do-form">
-      <label for="to-do-list">Stuff i need to get done</label>
-      <input type="text" placeholder="Something i need to get done"/>
-      <button type="submit">Add</button>
+      <div id="form-header">
+        <label for="to-do-list">Stuff i need to get done</label>
+        <input id="to-do" type="text" placeholder="Something i need to get done"/>
+        <button type="submit">Add</button>
+      </div>
     </form>
+
+    <script src="./index.js" />
   </body>
 </html>

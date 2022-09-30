@@ -81,3 +81,8 @@ input[type="checkbox"] {
   bottom: 10px;
   right: 10px;
 }
+
+
+#to-do-form {
+  display: none;
+}

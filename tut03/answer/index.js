@@ -86,8 +86,8 @@ toDoForm.addEventListener("submit", () => {
 document.getElementById("image-toggle").addEventListener("click", () => {
   const image1 = document.createElement("img");
   const image2 = document.createElement("img");
-  image1.src = "./assets/image1.png";
-  image2.src = "./assets/image2.png";
+  image1.src = "../assets/image1.png";
+  image2.src = "../assets/image2.png";
   image1.width = 500;
   image2.width = 500;
   document.getElementById("image-container").appendChild(image1);

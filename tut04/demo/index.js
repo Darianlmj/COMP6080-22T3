@@ -4,7 +4,17 @@
  * SpaceX's Organization info
  */
 const getSpacexInfo = () => {
-  // TODO: Implement this function
+  fetch('https://api.spacexdata.com/v4/company', {
+    method: 'GET',
+  })
+  .then((response) => {
+    return response.json();
+  })
+  .then((data) => {
+    console.log(data);
+    document.getElementById('info').textContent = data.name + data.founder;
+    document.getElementById('links').textContent = data['links']['twitter'];
+  });
 }
 
 
@@ -16,5 +26,5 @@ const getSpacexRockets = () => {
 }
 
 
-// getSpacexInfo();
-getSpacexRockets();
+getSpacexInfo();
+// getSpacexRockets();

@@ -7,11 +7,10 @@ function App() {
     <div className="App">
       <GeneralTemplate 
         title="Hello World"
-        children={[
-          <Button text="Click Me" />,
-          <Button text="For Something Crazy" />,
-        ]}
-      />
+      >
+        <Button text="Click Me" />
+        <Button text="For Something Crazy" />
+      </GeneralTemplate>
     </div>
   );
 }

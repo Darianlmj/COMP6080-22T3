@@ -14,7 +14,7 @@ const GeneralTemplate = ({ title, children }) => {
     <div
       className={styles.page}
     >
-      { children }
+       { children }
     </div>
   )
 }

@@ -34,3 +34,20 @@ You are to build a landing page and a game page
 * These sections should only take in numbers (0.5)
 * After typing in 4 numbers in the sections, the user should be able to press the "Enter" key on their keyboard and if the numbers sum up to 24, the user should be alerted with a message saying "You win!" (2)
 * If the numbers do not sum up to 24, the user should be alerted with a message saying "You lose!" (2)
+
+# 2. Marking Criteria
+For each of sections, marks will be awarded according to the following criteria:
+
+* 80%: Providing the features and functionality required in at least one of desktop, tablet, or mobile views.
+* 20%: Ensuring responsiveness on desktop, tablet, and mobile
+  * Desktop testing will be done on a 1800px x 800px viewport size
+  * Tablet testing will be done on a 1200px x 500px viewport size
+  * Mobile testing will be done on a 600px x 500px viewport size
+
+# 3. Submission
+At the end of your specified exam time, we will automatically collect the code on your master branch's HEAD (i.e. latest commit).
+
+Please note: If you develop locally ensure you check that your code works on the CSE servers. Failure to do so could result in a fail mark in the exam.
+
+# 4. MyExperience
+Please fill out your MyExperience survey which can be found [here](https://myexperience.unsw.edu.au/unsw/). (Bonus 1)
